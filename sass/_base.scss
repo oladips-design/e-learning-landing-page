@@ -1,0 +1,45 @@
+//color variable
+$color-blueish: #2d2e3d;
+$color-white: #ffffff;
+$color-gray: #8c8c8c;
+
+$color-background:   linear-gradient(180deg, rgba(255, 50, 31, 0.885) 55%, rgba(251, 80, 97, 0.836) 60%);
+
+
+////fonts
+$Roboto:'Roboto', sans-serif;
+
+*,*::after,*::before {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+*{
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    line-height: 1.5;
+}
+
+img,
+picture,video,svg{
+    display: block;
+    max-width: 100%;
+}
+
+button {
+    font: inherit;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+    overflow-wrap: break-word;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
